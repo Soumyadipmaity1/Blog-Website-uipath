@@ -1,0 +1,148 @@
+
+/* Main background div */
+
+.main-div {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle at top left, 
+        rgba(211, 150, 105, 0.9), 
+        rgba(0, 0, 30, 0.9) 15%, 
+        rgba(0, 0, 0, 1) 30%),
+      linear-gradient(180deg, rgba(0, 15, 48, 0.4) 0%, rgba(0, 48, 153, 0.4) 90%);
+    backdrop-filter: blur(100px);
+    display: flex;
+    justify-content: center;
+ 
+  }
+  
+  /* first div in home.js */
+  .first-div {
+  margin-top: 20px;
+  width: 80%;
+  height: 100%;
+  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  }
+  
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  
+  .second-div p {
+  text-align: center;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 34px;
+  }
+
+  /* Input div for the button and input field */
+  .input-div {
+  margin-top: 50px;
+  width: 100%;
+  height: 65px;
+  
+  justify-content: center;
+  display: flex;
+  }
+  
+  /* input div search button */
+  .search-button {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px 30px; 
+    border: none; 
+    border-radius: 8px; 
+    background-color: rgba(217, 217, 217, 1); 
+    cursor: pointer;
+  }
+
+  
+  .search-input {
+    background-color: rgba(217, 217, 217, 1);
+  border-radius: 10px;
+  width: 500px;
+  
+  }
+
+
+  /*  About div */
+
+  .about-div {
+margin-top: 200px;
+width: 100%;
+height: 527px;
+
+display:inline-flex;
+flex-direction:row;
+  }
+
+  .about-img {
+    width: 70%;
+    height: 100%;
+  }
+
+  .about-text-div {
+width: 30%;
+height: 100%;
+ 
+font-family: 'plus jakarta sans', sans-serif;
+color: grey;
+  }
+/* jakarta sans */
+  @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Pacifico&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* inter */
+  @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+  .about-div p {
+
+    font-family: 'inter', sans-serif;
+    font: 100;
+    font-size: 15px;
+    margin-top: 80px;
+
+  }
+
+  .cards-div {
+
+margin-top: 50px;
+width: 100%;
+height: 1100px;
+
+
+  }
+  
+  .cards-div p {
+
+    margin-bottom: 20px;
+    font-size: 50px;
+
+  }
+
+  .View-post-div {
+width: 100%;
+height: 50px;
+margin-top: 20px;
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+  
+.view-post-btn {
+padding: 10px;
+font-family: 'work-sans', sans-serif;
+color: rgba(105, 106, 117, 1);
+height: 100%;
+border: 1px solid grey;
+border-radius: 6px;
+
+}  
+
