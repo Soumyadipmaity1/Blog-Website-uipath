@@ -1,0 +1,35 @@
+/* src/Postcard.css */
+.postcard {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.postcard:hover {
+  transform: scale(1.05);
+}
+
+.postcard-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.postcard-content {
+  padding: 15px;
+}
+
+.postcard-content h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.postcard-content p {
+  margin: 5px 0;
+  color: #777;
+}

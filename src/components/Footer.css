@@ -1,0 +1,41 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content div {
+    margin: 10px;
+  }
+  
+  .footer-copy {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bbb;
+  }
+  
+  .footer h3 {
+    color: #fff;
+  }
+  
+  .footer a {
+    color: #bbb;
+    text-decoration: none;
+  }
+  
+  .footer input[type="email"] {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .footer button {
+    padding: 5px 10px;
+  }
+  
