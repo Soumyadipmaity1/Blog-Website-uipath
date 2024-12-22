@@ -1,0 +1,60 @@
+/* General Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Center items vertically */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 25px 20px; /* Spacing around header content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: sticky; /* Sticks to the top on scroll */
+    top: 0;
+    z-index: 1000; /* Ensures the header stays on top */
+    width: 100%;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    font-size: 24px; /* Larger font size for the logo */
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
+  }
+  
+  /* Navigation Styling */
+  .nav ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Align list items horizontally */
+  }
+  
+  .nav li {
+    margin: 0 15px; /* Space between nav items */
+  }
+  
+  .nav a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-size: 16px; /* Readable font size */
+    font-family: 'Arial', sans-serif;
+    padding: 5px 10px; /* Add padding for clickable area */
+    border-radius: 4px; /* Rounded edges */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+  }
+  
+  .nav a:hover {
+    background-color: #444; /* Dark gray on hover */
+    color: #ddd; /* Slightly lighter text on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav ul {
+      flex-direction: column; /* Stack nav items vertically */
+      text-align: center; /* Center-align nav items */
+    }
+    .nav li {
+      margin: 10px 0; /* Add spacing between stacked items */
+    }
+  }
+  
