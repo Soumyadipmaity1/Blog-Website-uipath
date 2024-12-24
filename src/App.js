@@ -2,7 +2,9 @@
 import React, { useState } from 'react';
 import Postcard from './postcard';
 import './App.css';
-
+import MainHeader from './components/MianHeader';
+import SearchBar from './components/SearhBar';
+import MainFooter from './components/MainFooter';
 const postcards = [
   {
     image: '/images/Fig1.jpeg',
@@ -94,10 +96,11 @@ function App() {
 
   return (
     <div className="App">
+      <MainHeader/>
       <header className="App-header">
         <h1>Cosmos Blog</h1>
       </header>
-      
+       <SearchBar/>
       <div className="filters">
         {categories.map((category) => (
           <button
@@ -116,34 +119,7 @@ function App() {
         ))}
       </div>
       
-      <footer className="App-footer">
-        <div className="footer-section">
-          <h2>About</h2>
-          <p>This is a Blog website...</p>
-        </div>
-        <div className="footer-section">
-          <h2>Quick Links</h2>
-          <ul>
-            <li><a href="#link1">Link 1</a></li>
-            <li><a href="#link2">Link 2</a></li>
-          </ul>
-        </div>
-        <div className="footer-section">
-          <h2>Category</h2>
-          <ul>
-            <li><a href="#category1">Category 1</a></li>
-            <li><a href="#category2">Category 2</a></li>
-          </ul>
-        </div>
-        <div className="footer-section newsletter">
-          <h2>Weekly Newsletter</h2>
-          <input type="email" placeholder="Enter your email" />
-          <button>Subscribe</button>
-        </div>
-        <div className="footer-bottom">
-          <p>&copy; 2023 Cosmos Blog. All rights reserved.</p>
-        </div>
-      </footer>
+      <MainFooter/>
     </div>
   );
 }
