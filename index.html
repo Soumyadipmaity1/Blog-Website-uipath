@@ -3,15 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A blog about technology and its impact on the workplace.">
-  <title>Cosmos Blog</title>
-  <link rel="stylesheet" href="%PUBLIC_URL%/styles.css">
+  <title>Single Blog Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-  <!--
-    This HTML file is a template.
-  -->
+  <header>
+    <h1>Single Blog Page</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">About</a>
+      <a href="#">Blog</a>
+    </nav>
+    <button id="theme-toggle">🌓</button>
+  </header>
+
+  <main>
+    <aside class="recent-posts">
+      <h2>Recent Blogposts</h2>
+      <ul>
+        <li>
+          <img src="images/Fig1.jpeg" alt="Blog Thumbnail" height="200" width="50">
+          <h3>UX Design Strategies</h3>
+          <p>How to improve user experience...</p>
+          <a href="#">Read more</a>
+        </li>
+        <li>
+          <img src="images/Fig2.jpeg" alt="Blog Thumbnail" height="200" width="50">
+          <h3>Marketing in the Age of AI</h3>
+          <p>Exploring AI-driven solutions...</p>
+          <a href="#">Read more</a>
+        </li>
+      </ul>
+    </aside>
+  
+    <section class="blog-content main-blog">
+      <div class="blog-header">
+        <h1>The Impact of Technology on the Workplace</h1>
+        <p class="blog-meta">January 11, 2025 | Author: John Doe</p>
+      </div>
+      <div class="blog-body">
+        <p>Technology is transforming the workplace in many ways, making processes more efficient and enabling remote collaboration. In this article, we explore how technology impacts productivity, work-life balance, and the future of work.</p>
+        <img src="images/Fig3.jpeg" alt="Blog Image" height="200" width="100">
+      </div>
+    </section>
+  </main>
+  
+
+  <footer>
+    <p>&copy; All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
