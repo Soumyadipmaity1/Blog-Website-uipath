@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #0b0c10;
+  }
+  
+  header {
+    padding: 1em;
+    background-color: #1f2833;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    color: #66fcf1;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+  }
+  
+  button {
+    background: none;
+    border: 2px solid #66fcf1;
+    color: #66fcf1;
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  
+  main {
+    display: flex;
+    margin: 2em;
+  }
+  
+  aside {
+    width: 30%;
+    margin-right: 2em;
+  }
+  
+  aside h2 {
+    color: #66fcf1;
+  }
+  
+  aside ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  aside li {
+    margin-bottom: 1.5em;
+  }
+  
+  aside img {
+    width: 100%;
+  }
+  
+  aside a {
+    color: #66fcf1;
+    text-decoration: none;
+  }
+  
+  section.blog-content {
+    width: 70%;
+  }
+  
+  .blog-header h1 {
+    color: #fff;
+  }
+  
+  .blog-meta {
+    color: #c5c6c7;
+    font-style: italic;
+    text-align: right;
+  }
+  
+  .blog-body img {
+    width: 200px;
+    margin-bottom: 1em;
+    float: center;
+    margin-left: 300px; 
+    max-width: 50%; 
+    height: 200px;
+  }
+  
+  .blog-body p {
+    color: #c5c6c7;
+  }
+  
+  footer {
+    background: #1f2833;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #c5c6c7;
+  }
+
+  
+  /* Styles for Recent Blogposts */
+.recent-posts {
+  border: 2px solid #66fcf1; /* Light teal border */
+  padding: 1em;
+  border-radius: 10px; /* Rounded corners */
+  margin-right: 2em; /* Space between sections */
+}
+
+/* Styles for Main Blog Section */
+.main-blog {
+  border: 2px solid #66fcf1; /* Light teal border */
+  padding: 1em;
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Optional for additional aesthetics */
+.recent-posts h2, .main-blog .blog-header h1 {
+  margin-bottom: 1em;
+}
